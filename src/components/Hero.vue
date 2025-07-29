@@ -20,30 +20,33 @@ import { ArrowRight } from "lucide-vue-next";
           <span class="mr-2 text-primary">
             <Badge>New</Badge>
           </span>
-          <span> Design is out now! </span>
+          <span> AI Agent Integration! </span>
         </Badge>
 
         <div
           class="max-w-screen-md mx-auto text-center text-5xl md:text-6xl font-bold"
         >
           <h1>
-            Experience the
+            Engineer Your
             <span
               class="text-transparent bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text"
-              >Shadcn/Vue
+              >Future-Ready
             </span>
-            landing page
+            Enterprise
           </h1>
         </div>
 
         <p class="max-w-screen-sm mx-auto text-xl text-muted-foreground">
-          We're more than just a tool, we're a community of passionate creators.
-          Get access to exclusive resources, tutorials, and support.
+          We architect transformative digital synergy. Aether Sync delivers seamless, AI-driven solutions 
+          to optimize operations, unlock data potential, and accelerate your journey to digital excellence.
         </p>
 
         <div class="space-y-4 md:space-y-0 md:space-x-4">
           <Button class="w-5/6 md:w-1/4 font-bold group/arrow">
-            Get Started
+            <a
+              href="#contact"
+              >Schedule a Consultation</a
+            >
             <ArrowRight
               class="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform"
             />
@@ -55,16 +58,15 @@ import { ArrowRight } from "lucide-vue-next";
             class="w-5/6 md:w-1/4 font-bold"
           >
             <a
-              href="https://github.com/leoMirandaa/shadcn-vue-landing-page.git"
-              target="_blank"
-              >Github respository</a
+              href="#benefits"
+              >Explore Our Solutions</a
             >
           </Button>
         </div>
       </div>
 
-      <div class="relative group mt-14">
-        <!-- gradient shadow -->
+      <!-- <div class="relative group mt-14">
+        gradient shadow
         <div
           class="absolute -top-6 right-12 w-[90%] h-12 lg:h-[80%] bg-primary/50 blur-3xl rounded-full img-shadow-animation"
         ></div>
@@ -77,11 +79,11 @@ import { ArrowRight } from "lucide-vue-next";
           alt="dashboard using shadcn-vue"
         />
 
-        <!-- gradient effect img -->
+        gradient effect img
         <div
           class="absolute bottom-0 left-0 w-full h-20 md:h-28 bg-gradient-to-b from-background/0 via-background/50 to-background rounded-lg"
         ></div>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
