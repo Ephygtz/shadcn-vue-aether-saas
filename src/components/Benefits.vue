@@ -19,27 +19,27 @@ interface BenefitsProps {
 const benefitList: BenefitsProps[] = [
   {
     icon: "blocks",
-    title: "Build Brand Trust",
+    title: "Platform Dev",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Full-Stack Development: The cornerstone of your digital presence. We craft bespoke, high-performance web applications and enterprise-grade platforms..",
   },
   {
     icon: "lineChart",
-    title: "More Leads",
+    title: "B2C Engagement",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
+      "B2C Customer Platforms: We build engaging e-commerce, booking, and community platforms that connect you directly with your customers for exceptional experiences.",
   },
   {
     icon: "wallet",
-    title: "Higher Conversions",
+    title: "E-Governance",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam",
+      "Public Sector Transformation: We develop secure, transparent e-governance systems that improve public service delivery and administrative efficiency.",
   },
   {
     icon: "sparkle",
-    title: "Test Marketing Ideas",
+    title: "AI Integration",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "AI Agent Integration: We embed intelligent AI agents for cognitive automation, from advanced customer support chatbots to powerful data analytics assistants.",
   },
 ];
 
@@ -71,12 +71,12 @@ const iconMap: Record<
         <h2 class="text-lg text-primary mb-2 tracking-wider">Benefits</h2>
 
         <h2 class="text-3xl md:text-4xl font-bold mb-4">
-          Your Shortcut to Success
+          From Digital Disconnect to Intelligent Synchronization
         </h2>
         <p class="text-xl text-muted-foreground mb-8">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non ducimus
-          reprehenderit architecto rerum similique facere odit deleniti
-          necessitatibus quo quae.
+         Individual tools are not enough. True digital success is achieved when every component of your ecosystem—
+         from customer touchpoints to backend logic—operates in perfect harmony. 
+         We eliminate digital silos and automate complexity to create a single, intelligent, and optimized enterprise.
         </p>
       </div>
 
