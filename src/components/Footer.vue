@@ -17,10 +17,14 @@ import Separator from "./ui/separator/Separator.vue";
             href="#"
             class="flex font-bold items-center"
           >
-            <ChevronsDown
+            <!-- <ChevronsDown
               class="bg-gradient-to-tr from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white"
-            />
-
+            /> -->
+          <img
+            src="@/assets/icon.ico"
+            alt="AetherSynced Logo"
+            class="rounded-lg w-9 h-9 mr-2 border object-cover"
+          />
             <h3 class="text-2xl">AetherSynced</h3>
           </a>
         </div>
@@ -32,7 +36,7 @@ import Separator from "./ui/separator/Separator.vue";
               href="#"
               class="opacity-60 hover:opacity-100"
             >
-              Github
+              Github 
             </a>
           </div>
 

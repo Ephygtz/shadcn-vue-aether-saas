@@ -90,9 +90,14 @@ const isOpen = ref<boolean>(false);
       href="/"
       class="font-bold text-lg flex items-center"
     >
-      <ChevronsDown
+      <!-- <ChevronsDown
         class="bg-gradient-to-tr from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white"
-      />
+      /> -->
+      <img
+            src="@/assets/icon.ico"
+            alt="AetherSynced Logo"
+            class="rounded-lg w-9 h-9 mr-2 border object-cover"
+          />
       AetherSynced</a
     >
     <!-- Mobile -->
@@ -116,9 +121,14 @@ const isOpen = ref<boolean>(false);
                   href="/"
                   class="flex items-center"
                 >
-                  <ChevronsDown
+                  <!-- <ChevronsDown
                     class="bg-gradient-to-tr from-primary/70 via-primary to-primary/70 rounded-lg size-9 mr-2 border text-white"
-                  />
+                  /> -->
+                    <img
+                  src="@/assets/icon.ico"
+                  alt="AetherSynced Logo"
+                  class="rounded-lg w-9 h-9 mr-2 border object-cover"
+                />
                   AetherSynced
                 </a>
               </SheetTitle>
@@ -161,7 +171,7 @@ const isOpen = ref<boolean>(false);
           <NavigationMenuContent>
             <div class="grid w-[600px] grid-cols-2 gap-5 p-4">
               <img
-                src="https://www.radix-vue.com/logo.svg"
+                src="@/assets/ae-logo.png"
                 alt="Beach"
                 class="h-full w-full rounded-md object-cover"
               />
@@ -204,7 +214,7 @@ const isOpen = ref<boolean>(false);
     <div class="hidden lg:flex">
       <ToggleTheme />
 
-      <Button
+      <!-- <Button
         as-child
         size="sm"
         variant="ghost"
@@ -217,7 +227,7 @@ const isOpen = ref<boolean>(false);
         >
           <GithubIcon class="size-5" />
         </a>
-      </Button>
+      </Button> -->
     </div>
   </header>
 </template>
