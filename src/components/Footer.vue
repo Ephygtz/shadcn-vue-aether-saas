@@ -21,7 +21,7 @@ import Separator from "./ui/separator/Separator.vue";
               class="bg-gradient-to-tr from-primary via-primary/70 to-primary rounded-lg w-9 h-9 mr-2 border text-white"
             />
 
-            <h3 class="text-2xl">Shadcn-Vue</h3>
+            <h3 class="text-2xl">AetherSynced</h3>
           </a>
         </div>
 
@@ -92,7 +92,7 @@ import Separator from "./ui/separator/Separator.vue";
               href="#"
               class="opacity-60 hover:opacity-100"
             >
-              Contact Us
+              Privacy Policy
             </a>
           </div>
 
@@ -110,7 +110,7 @@ import Separator from "./ui/separator/Separator.vue";
               href="#"
               class="opacity-60 hover:opacity-100"
             >
-              Feedback
+              Terms of Service
             </a>
           </div>
         </div>
@@ -149,13 +149,13 @@ import Separator from "./ui/separator/Separator.vue";
       <Separator class="my-6" />
       <section className="">
         <h3 class="">
-          &copy; 2024 Designed and developed by
+          &copy; 2025 Designed and developed by
           <a
             target="_blank"
-            href="https://github.com/leoMirandaa"
+            href="https://x.com/ephygitz"
             className="text-primary transition-all border-primary hover:border-b-2"
           >
-            Leo Miranda
+            Ephraim G
           </a>
         </h3>
       </section>

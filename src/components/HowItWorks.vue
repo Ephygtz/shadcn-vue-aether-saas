@@ -11,32 +11,46 @@ interface HowItWorksProps {
 
 const HowItWorksList: HowItWorksProps[] = [
   {
-    badgeTitle: "Contribute",
-    title: "Make a Difference with Every Contribution",
+    badgeTitle: "End-to-End",
+    title: "Holistic & End-to-End",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, quasi sint reiciendis quidem iure.",
+      "From initial concept and frontend design to robust backend development and AI-driven automation — we build the complete, integrated digital picture.",
     image: "roboto.png",
   },
   {
-    badgeTitle: "Discover",
-    title: "Create an Impact with Every Choice",
+    badgeTitle: "Versatile",
+    title: "Sector Versatility",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, sint reiciendis quidem iure veritatis optio facere tenetur.",
+      "We deliver tailor-fit solutions across private, B2B, B2C, and government sectors, understanding the unique nuances of each domain.",
     image: "runner.png",
   },
   {
     badgeTitle: "Innovate",
-    title: "Make Every Action Count",
+    title: "Future-Proof Technology",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, odit similique quasi sint.",
+      "We leverage cutting-edge AI, robust cloud infrastructure, and zero-trust security to ensure your solutions are resilient and ready for tomorrow.",
     image: "pacheco.png",
   },
   {
     badgeTitle: "Collaborate",
-    title: "Tackle this challenge together",
+    title: "Accelerated Impact",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, quasi sint reiciendis quidem iure.",
+      "Our agile development cycles and deep strategic alignment ensure rapid deployment of solutions that deliver immediate, measurable business value.",
     image: "gamestation.png",
+  },
+  {
+    badgeTitle: "Global",
+    title: "Global Standards",
+    description:
+      "We adhere to international best practices in software development and digital innovation. Our solutions are built to scale, ensuring your business can grow without limits.",
+    image: "roboto.png",
+  },
+  {
+    badgeTitle: "Partnership",
+    title: "Dedicated Partnership",
+    description:
+      "We integrate as an extension of your team, ensuring open communication, transparent processes, and long-term success.",
+    image: "runner.png",
   },
 ];
 </script>
@@ -48,12 +62,13 @@ const HowItWorksList: HowItWorksProps[] = [
   >
     <div class="text-center mb-8">
       <h2 class="text-lg text-primary text-center mb-2 tracking-wider">
-        How It Works
+        The Aether Sync Advantage
       </h2>
 
-      <h2 class="text-3xl md:text-4xl text-center font-bold">
-        Step-by-Step Process
-      </h2>
+      <h3 class="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
+        We are more than a vendor; we are your strategic partner in growth. 
+        Our unique approach ensures your digital transformation is not just successful, but sustainable and scalable.
+      </h3>
     </div>
 
     <div class="lg:w-[80%] mx-auto relative">

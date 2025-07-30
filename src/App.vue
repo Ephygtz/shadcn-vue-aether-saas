@@ -23,11 +23,11 @@ import Footer from "./components/Footer.vue";
   <Features />
   <Services />
   <HowItWorks />
-  <Testimonials />
+  <!-- <Testimonials /> -->
   <Team />
-  <Community />
-  <Pricing />
+  <!-- <Community /> -->
+  <!-- <Pricing /> -->
   <Contact />
-  <FAQ />
+  <!-- <FAQ /> -->
   <Footer />
 </template>

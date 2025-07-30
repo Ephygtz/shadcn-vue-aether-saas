@@ -23,23 +23,23 @@ const serviceList: ServiceProps[] = [
   {
     title: "Custom Domain Integration",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit adipisicing.",
+      "Seamlessly connect your custom domain to our platform, ensuring a professional online presence that aligns with your brand identity.",
     pro: 0,
   },
   {
     title: "Social Media Integrations",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, dicta.",
+      "Effortlessly manage and sync your social media accounts to engage your audience, share content, and grow your following across platforms.",
     pro: 0,
   },
   {
     title: "Email Marketing Integrations",
-    description: "Lorem dolor sit amet adipisicing.",
+    description: "Streamline your email campaigns with powerful integrations, allowing you to create, send, and track personalized emails to boost customer engagement.",
     pro: 0,
   },
   {
     title: "SEO Optimization",
-    description: "Lorem ipsum dolor sit amet consectetur.",
+    description: "Enhance your website’s visibility with tailored SEO strategies, driving organic traffic and improving your search engine rankings.",
     pro: 1,
   },
 ];

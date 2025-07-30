@@ -21,39 +21,39 @@ interface FeaturesProps {
 const featureList: FeaturesProps[] = [
   {
     icon: "tabletSmartphone",
-    title: "Mobile Friendly",
+    title: "Full-Stack Web & Platform Development",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+      "We craft bespoke, high-performance web applications and enterprise-grade digital platforms from concept to deployment. Our expertise spans stunning user interfaces and robust, scalable backend infrastructures, serving as the cornerstone of your digital presence. Includes: Custom websites, secure admin portals, powerful APIs, mobile-responsive applications, and cloud-native solutions.",
   },
   {
     icon: "badgeCheck",
-    title: "Social Proof",
+    title: "B2B Software Solutions & Business Process Automation",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+      "We empower businesses with intelligent, secure, and collaborative software tools designed to streamline workflows, optimize operational efficiency, and enhance inter-business ecosystems. Our solutions reduce manual effort and improve data flow. Includes: Custom CRM systems, secure supplier portals, intelligent inventory management, and comprehensive business process automation (BPA).",
   },
   {
     icon: "goal",
-    title: "Targeted Content",
+    title: "B2C Customer Experience & Engagement Platforms",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
+      "We design and develop highly intuitive, engaging platforms that bring businesses closer to their end-users. Our focus is on creating exceptional digital customer experiences, from seamless transactions to personalized interactions. Includes: Advanced e-commerce storefronts, secure online booking systems, dynamic subscription services, and vibrant digital communities.",
   },
   {
     icon: "pictureInPicture",
-    title: "Strong Visuals",
+    title: "Public Sector & Government Digital Transformation",
     description:
-      "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
+      "Aether Sync is a trusted partner in e-governance. We develop secure, transparent, and user-centric digital platforms for government agencies to improve public service delivery, enhance data management, and foster greater citizen engagement. Includes: E-governance systems, secure digital registries, online licensing portals, and citizen service delivery platforms.",
   },
   {
     icon: "mousePointerClick",
-    title: "Clear CTA",
+    title: "AI Agent Integration & Intelligent Automation",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
+      "Step into the future with AI-powered business solutions. We specialize in integrating intelligent AI agents directly into your existing digital infrastructure to achieve cognitive automation and unlock unprecedented operational scale. Includes: Custom AI chatbots, predictive analytics dashboards, intelligent automation triggers, and machine learning integration.",
   },
   {
     icon: "newspaper",
-    title: "Clear Headline",
+    title: "B2B Automation",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+      "B2B Solutions & Automation: We streamline inter-business workflows, from supplier portals to logistics, creating a seamless and efficient B2B ecosystem. Use Cases: Logistics firms, professional service providers, manufacturing companies, supply chain optimization.",
   },
 ];
 

@@ -29,7 +29,7 @@ const contactForm = reactive<ContactFormeProps>({
   firstName: "",
   lastName: "",
   email: "",
-  subject: "Web Development",
+  subject: "Consultation",
   message: "",
 });
 
@@ -39,7 +39,7 @@ const handleSubmit = () => {
   const { firstName, lastName, email, subject, message } = contactForm;
   console.log(contactForm);
 
-  const mailToLink = `mailto:leomirandadev@gmail.com?subject=${subject}&body=Hello I am ${firstName} ${lastName}, my Email is ${email}. %0D%0A${message}`;
+  const mailToLink = `mailto:ephygtz@gmail.com?subject=${subject}&body=Hello I am ${firstName} ${lastName}, my Email is ${email}. %0D%0A${message}`;
 
   window.location.href = mailToLink;
 };
@@ -53,13 +53,13 @@ const handleSubmit = () => {
     <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
       <div>
         <div class="mb-4">
-          <h2 class="text-lg text-primary mb-2 tracking-wider">Contact</h2>
+          <h2 class="text-lg text-primary mb-2 tracking-wider">Schedule Your Consultation</h2>
 
-          <h2 class="text-3xl md:text-4xl font-bold">Connect With Us</h2>
+          <h2 class="text-3xl md:text-4xl font-bold">Ready to Accelerate Your Digital Transformation?</h2>
         </div>
         <p class="mb-8 text-muted-foreground lg:w-5/6">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-          ipsam sint enim exercitationem ex autem corrupti quas tenetur
+          Connect with our experts to discover how intelligent synchronization can revolutionize your business. 
+          Let's build your future-ready enterprise, together. Schedule a complimentary, no-obligation strategic consultation today.
         </p>
 
         <div class="flex flex-col gap-4">
@@ -69,7 +69,7 @@ const handleSubmit = () => {
               <div class="font-bold">Find Us</div>
             </div>
 
-            <div>742 Evergreen Terrace, Springfield, IL 62704</div>
+            <div> Nairobi, Kenya, 12 dr</div>
           </div>
 
           <div>
@@ -78,7 +78,7 @@ const handleSubmit = () => {
               <div class="font-bold">Call Us</div>
             </div>
 
-            <div>+1 (619) 123-4567</div>
+            <div>+254 (705) 472-281</div>
           </div>
 
           <div>
@@ -87,7 +87,7 @@ const handleSubmit = () => {
               <div class="font-bold">Mail Us</div>
             </div>
 
-            <div>leomirandadev@gmail.com</div>
+            <div>info@aethersynced.com</div>
           </div>
 
           <div>
@@ -118,7 +118,7 @@ const handleSubmit = () => {
                 <Input
                   id="first-name"
                   type="text"
-                  placeholder="Leopoldo"
+                  placeholder="Ephraim"
                   v-model="contactForm.firstName"
                 />
               </div>
@@ -128,7 +128,7 @@ const handleSubmit = () => {
                 <Input
                   id="last-name"
                   type="text"
-                  placeholder="Miranda"
+                  placeholder="G"
                   v-model="contactForm.lastName"
                 />
               </div>
@@ -139,7 +139,7 @@ const handleSubmit = () => {
               <Input
                 id="email"
                 type="email"
-                placeholder="leomirandadev@gmail.com"
+                placeholder="ephygtz@gmail.com"
                 v-model="contactForm.email"
               />
             </div>
